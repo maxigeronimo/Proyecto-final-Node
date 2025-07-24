@@ -9,13 +9,22 @@
   "keywords": [],
   "author": "Maxi",
   "license": "ISC",
-  "description": "",
+  "description": "API REST para gestionar productos con autenticación mediante JWT y almacenamiento en Firebase Firestore.",
   "type": "module",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "firebase": "^12.0.0",
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxigeronimo/Proyecto-final-Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxigeronimo/Proyecto-final-Node/issues"
+  },
+  "homepage": "https://github.com/maxigeronimo/Proyecto-final-Node#readme"
 }
